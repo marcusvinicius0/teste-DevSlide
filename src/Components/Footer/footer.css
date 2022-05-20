@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+footer{
+    width: 100%;
+    height: 270px;
+    background-color: var(--dark-700);
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 84px;
+}
+
+footer .logo-footer{
+    margin-top: 60px;
+    margin-left: 186px;
+}
+
+footer .footer-line{
+    max-width: 75%;
+    opacity: 0.1;
+    margin: 57.74px 0 50px 186px;
+    border: 1px solid var(--white);
+}
+
+
+.container-footer nav{
+    margin-top: 65px;
+    margin-left: -60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-footer nav a{
+    color: var(--white);
+    cursor: pointer;
+}
+
+.socialMedia-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -30px;
+    margin-right: 145px;
+    gap: 40px;
+}
+
+
+@media(max-width: 870px){
+ 
+    .container-footer{
+        margin-left: -5rem;
+    }
+
+}
+
+@media(max-width: 840px){
+
+    .socialMedia-links{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 180px;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 700px){
+
+    .container-footer{
+        margin-left: -10rem;
+    }
+
+    .container-footer .footer-line{
+        margin-left: 12rem;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --white: #FFF;
+    --whitesmoke: whitesmoke;
+    --black: #000;
+    --dark-700: #1E2833; 
+    --dark-900: #19191D;
+    --softgray: #DBDBDB; 
+    --gray-50: #CCC; 
+    --gray-100: #787885;
+    --gray-150: #817979;
+    --green-900: #3FFFA3;
+    --softblue: #9DC2FF;
+    --blue-100: #2264D1;
+  }

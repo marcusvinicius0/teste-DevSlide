@@ -1,0 +1,96 @@
+header{
+    margin-top: 42px;
+}
+
+header .logo{
+    position: relative;
+    left: 5rem;
+}
+
+.navegation-area{
+    font-family: 'Roboto', sans-serif;
+}
+
+ ul{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: -28px;
+    margin-left: 242.77px;
+}
+
+.navegation-area a{
+    color: var(--black);
+    font-size: 14px;
+}
+
+.navegation-area a:hover{
+    color: rgb(87, 85, 85);
+    transition: 0.2s;
+}
+
+.navegation-area img{
+    cursor: pointer;
+}
+
+header .first-line{
+    width: 100%;
+    border-color: var(--gray-50);
+    opacity: 0.3;
+    margin-top: 10px;
+}
+
+.menu-hamb{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1040px){
+    .menu-hamb{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        visibility: visible;
+        position: relative;
+        top: -2.5rem;
+    }
+
+    .menuOn{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 6.5rem;
+        right: .5rem;
+        gap: 1px;
+        background-color: var(--whitesmoke);
+        width: 8rem;
+        height: 15rem;
+        border-radius: 25px;
+        padding-left: 2.5rem;
+        z-index: 99;
+        font-size: 35px;
+    }
+
+    .menuOn img{
+       position: relative;
+       top: -1.3rem;
+       left: 4rem;
+    }
+
+    .menuOff{
+        display: none;
+    }
+}
+
+@media (max-width: 415px){
+    header .logo{
+        left: 1rem;
+    }
+}
+

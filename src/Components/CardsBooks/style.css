@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 81px;
+}
+
+.cardBox {
+    width: 259px;
+    height: 515px;
+    border-radius: 4px;
+    border: 1px solid var(--softgray);
+    background-color: var(--white);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardBox img {
+    width: 227px;
+    height: 224px;
+    border-radius: 4px;
+    margin: 16px auto;
+}
+
+.contentContainer{
+    padding-left: 10px;
+}
+
+.cardBox .item-title {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2.75%;
+    color: var(--dark-900);
+    opacity: 0.9;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.cardBox .item-author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.02px;
+    margin-top: 6px;
+    color: var(--gray-100);
+}
+
+.cardBox .item-description {
+    font-size: 14px;
+    line-height: 20.02px;
+    margin-top: 8px;
+    height: 120px;
+    overflow-y: auto;
+    color: var(--gray-100);
+}
+
+.cardBox .item-description::-webkit-scrollbar {
+    height: 10px;
+    width: 5px;
+    background: var(--gray-50);
+}
+
+.cardBox .item-description::-webkit-scrollbar-thumb:vertical {
+    background: var(--gray-150); 
+    height:20px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+
+.finalsContent{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.finalsContent p:first-child{
+    border: 1px solid var(--softblue);
+    color: var(--blue-100);
+    padding: 5px;
+}
+
